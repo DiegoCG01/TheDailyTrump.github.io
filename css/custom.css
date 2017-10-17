@@ -1,0 +1,92 @@
+.jumbotron {
+	text-align: center;
+	background-image: url('../images/Trumptastic.jpg');
+  }
+
+.display-3 {
+	color: #00aced;
+}
+
+.lead {
+	color: #00aced;
+}
+
+.btn {
+	background-color: #007bff;
+	border-color: #006ee5;
+}
+
+.btn:hover {
+	background-color: #0062cc;
+	border-color: #004999;
+}
+
+.btn:active {
+	background-color: #0062cc;
+	border-color: #004999;
+}
+
+.text-muted {
+	font-size: 50px;
+	font-family: 'Orbitron-Bold','Arvo','Monoton', cursive;
+	color: #000000;
+}
+
+.container nav {
+	font-size: 30px;
+}
+
+.container h4 {
+	font-family: 'Droid Serif-Bold','Arvo', serif;
+}
+
+#back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back-to-top a {
+	color: #333;
+}
+
+#Disclaimers {
+	font-size: 7px;
+}
+
+
+/*Phone Responsive Screen*/
+
+@media (max-width: 767px) { 
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	.nav-item {
+		font-size: 15px;
+	}
+
+	.text-muted {
+		font-size: 25px;
+	}
+
+	#get-involved {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
